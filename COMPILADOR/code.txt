@@ -1,0 +1,12 @@
+
+int main ( ) {
+
+    int num ;
+
+    float valor ;
+
+    num = 2 + 4 - 6 * 7 ;
+
+    valor = num / 5 + 4  * 6 ;
+
+}

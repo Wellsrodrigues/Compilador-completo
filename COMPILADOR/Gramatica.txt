@@ -1,0 +1,38 @@
+
+--------------- GRAMATICA -----------------
+
+
+programa:           int main () {  bloco  }
+
+
+bloco:              declaraVar comando
+
+
+declaraVar:         tipo id ;
+
+
+tipo:               int | float | char 
+
+
+comando:	        if ( expr_relacional ) { comando } else { comando } | while ( expr_relacional ) { } | comando_basico
+
+
+comando_basico:      atribuicao ; | printf | scanf
+
+
+printf:             ( id ) ;
+
+
+scanf:              ( & id ) ; 
+
+
+atribuicao:         fator | expr_arit
+
+
+expr_arit:          fator | fator OP fator (OP expr_arit)*
+
+
+expr_relacional:    fator OP_RL fator
+
+
+fator:              number | id

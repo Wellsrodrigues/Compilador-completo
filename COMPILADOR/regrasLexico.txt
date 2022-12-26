@@ -1,0 +1,14 @@
+IDENTIFICADOR
+        (a..z) (A..Z | 0..9 | a..z)*
+
+NUMERO
+        (0..9)+
+
+PONTUAÇÃO
+        (; | ( | ) | { | } | &)
+
+OP_ATRIBUIÇÃO
+        (=)
+
+OP_RELACIONAL
+        (> | < | >= | <= | != | ==)
